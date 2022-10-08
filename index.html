@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="fundo">
+        <h1 class="titulo">Player de Música</h1>
+        <div class="nome"><p class="nomedamusica"></p></div>
+        <div class="botoes">
+            <button class="botaoantes"><img class="imgantes" onmouseenter="antesen()" onmouseout="antesout()" onclick="antesclick()" src="./icon/antes.png"></button>
+            <button class="botaoplay"><img class="imgplay" onmouseenter="playen()" onmouseout="playout()" onclick="playclick()" src="./icon/play.png"></button>
+            <button class="botaonext"><img class="imgnext" onmouseenter="nexten()" onmouseout="nextout()" onclick="nextclick()" src="./icon/next.png"></button>
+        </div>
+        <input type="range" value="0" max="0" class="barra" onclick="barraclick()">
+        <div class="tempos">
+            <p class="tempoatual">00:00</p>
+            <p class="tempototal">00:00</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

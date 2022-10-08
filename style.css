@@ -1,0 +1,57 @@
+.fundo{
+    background: #aeff00;
+    max-width: 400px;
+    min-width: 230px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+}
+.titulo{
+    font: normal 25pt Arial;
+    font-weight: bolder;
+
+}
+.nomedamusica{
+    font: normal 18pt Arial;
+    font-weight: bolder;
+    color: white;
+}
+.botaoantes{
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.botaoplay{
+    background: transparent;
+    border: 1px solid transparent;
+}
+.botaonext{
+    background: transparent;
+    border: 1px solid transparent;
+}
+.barra{
+    width: 60%;
+}
+.tempos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nome{
+    max-width: 400px;
+    min-width: 230px;
+    height: 58px;
+    text-align: center;
+
+}
+body{
+	background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+	color: black;
+}
+
+
+
+
